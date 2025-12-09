@@ -1,0 +1,16 @@
+Assignment 05 - Deep Feedforward Neural Networks
+
+The goal is to predict which passengers were transported by the spacetime anomaly using the Kaggle Spaceship Titanic Challenge, based on records recovered from the spaceship’s damaged computer system.
+
+First, log in to Kaggle and go to the Spaceship Titanic Challenge to download ‘train.csv’ and ‘test.csv’. The data is already divided into a training set and a test set. However, the test data does not contain labels. Your goal is to train the best possible model using the training data, so make your predictions on the test data and load them into Kaggle to see your final score.
+
+First, assess the attributes of the training set. Some attributes contain missing data. This indicates that it may be unnecessary to include them in the model.
+
+Then evaluate the performance of a feedforward neural network (MLP) on this dataset. To improve this result, you must:
+
+Adjust hyperparameters (number of layers and neurons in each layer) using cross-validation and grid search.
+Evaluate different types of regularization.
+Pre-process the features (less important). 
+Find the best optimization method (less important). Start with ADAM.
+
+You must include in your code the learning curves and confusion matrix of the initial model and the improved models. Please also include the architecture and parameters used in the improved models, as well as an analysis of the results obtained and the impacts related to the variation in network architecture/parameters.
