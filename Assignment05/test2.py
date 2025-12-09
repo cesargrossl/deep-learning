@@ -1,6 +1,7 @@
 # ===============================================
 # Assignment 05 - Deep Feedforward Neural Networks
 # Kaggle Spaceship Titanic - MLP (scikit-learn)
+# 06051982
 # ===============================================
 
 import os
@@ -119,7 +120,7 @@ print("\nGerando curva de aprendizado (pode levar um pouco, mas bem menos)...")
 train_sizes, train_scores, val_scores = learning_curve(
     pipe_base,
     X, y,
-    cv=2,  # antes 3 — reduz o custo
+    cv=3,  # antes 3 — reduz o custo
     scoring="accuracy",
     train_sizes=np.linspace(0.2, 1.0, 3),  # menos pontos
     n_jobs=-1
